@@ -1,8 +1,8 @@
 // Simple Charlieplexing, Led by Led
 
 
-// Define the position of the LED's on Port B. {pinoutmode,pin high)
-// the first number defines the pinmode of Port B and the second number defines, wich Pin is High.
+// Define the position of the LEDs on port B. {pinoutmode,pin high)
+// the first value defines the pin mode of port B and the second defines whether the pin is high.
 const byte LEDS[][2] = {
   {3,1},{3, 2},{5, 1},{5, 4},{18, 2}, {18, 16},                           
   {6, 2}, {6, 4},  {10, 2}, {10, 8},{36, 4}, {36, 32},
